@@ -1,33 +1,27 @@
-/* Function of filterReducer */
-//Action
-const setTextFilter = (text = "") => ({
-    type: "Set_Text_Filter",
-    text
+// SET_TEXT_FILTER
+export const setTextFilter = (text = '') => ({
+  type: 'SET_TEXT_FILTER',
+  text
 });
 
-const sortByDate = () => ({
-    type : "Sort_By_Date"
-})
+// SORT_BY_DATE
+export const sortByDate = () => ({
+  type: 'SORT_BY_DATE'
+});
 
-const sortByAmount = () => ({
-    type : "Sort_By_Amount"
-})
+// SORT_BY_AMOUNT
+export const sortByAmount = () => ({
+  type: 'SORT_BY_AMOUNT'
+});
 
-const setStartDate = (startDate) => ({
-    type:"Set_Start_Date",
-    startDate
-})
+// SET_START_DATE
+export const setStartDate = (startDate) => ({
+  type: 'SET_START_DATE',
+  startDate
+});
 
-const setEndDate = (endDate) => ({
-    type:"Set_End_Date",
-    endDate
-})
-
-
-module.exports = {
-    setTextFilter,
-    sortByDate,
-    sortByAmount,
-    setStartDate,
-    setEndDate
-}
+// SET_END_DATE
+export const setEndDate = (endDate) => ({
+  type: 'SET_END_DATE',
+  endDate
+});
