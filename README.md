@@ -22,7 +22,7 @@ A website that helps you to save the info of expense in detail. This is coded in
 
 3. Create two file in the `root` folder and seperately named  `.env.development` , `.env.test`
 
-4. Look up the `Project Setting` of the app just created in firebase and then click `add Firebase to web ap`, copy the value of these following thing:
+4. Look up the `Project Setting` of the app just created in firebase and then click `add Firebase to web app`, copy the value of these following thing:
 
    > apiKey
    >
