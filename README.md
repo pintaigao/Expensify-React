@@ -60,3 +60,9 @@ A website that helps you to save the info of expense in detail. This is coded in
 - [x] Create a Vue Version
 
 - [ ] Create a React Native Version
+
+- [ ] Backend server write in Spring
+
+- [ ] Backend server write in Rails
+
+- [ ] Backend server write in Django
