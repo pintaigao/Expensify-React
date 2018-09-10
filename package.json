@@ -7,9 +7,10 @@
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
-    "dev-server": "webpack-dev-server --env development",
+    "dev-server": "webpack-dev-server",
     "test": "cross-env NODE_ENV=test jest --config=jest.config.json",
     "start": "node server/server.js",
+    "start:dev": "react-scripts start",
     "heroku-postbuild": "npm run build:prod"
   },
   "dependencies": {
@@ -37,6 +38,7 @@
     "react-modal": "2.2.2",
     "react-redux": "5.0.5",
     "react-router-dom": "4.1.2",
+    "react-scripts": "^1.1.5",
     "redux": "3.7.2",
     "redux-mock-store": "1.2.3",
     "redux-thunk": "2.2.0",

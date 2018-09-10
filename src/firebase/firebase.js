@@ -10,15 +10,6 @@ const config = {
   messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID
 };
 
-/* const config = {
-  apiKey: "AIzaSyA_5dAGxnA6fL_QJFC64OcgDzxDp5jHLI8",
-  authDomain: "expensify-850a3.firebaseapp.com",
-  databaseURL: "https://expensify-850a3.firebaseio.com",
-  projectId: "expensify-850a3",
-  storageBucket: "expensify-850a3.appspot.com",
-  messagingSenderId: "1072360155746"
-}; */
-
 firebase.initializeApp(config);
 
 const database = firebase.database();
