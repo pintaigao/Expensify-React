@@ -1,7 +1,6 @@
 {
   "name": "expensify",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Pintaigao He",
   "license": "MIT",
   "scripts": {
