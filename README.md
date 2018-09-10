@@ -2,13 +2,11 @@
 
 A website that helps you to save the info of expense in detail. This is coded in React, [Demo](<https://expensify-hptg.herokuapp.com/>)
 
-
+## ScreenShots
 
 ![Expensify](resources/Expensify.png)
 
-****
-
-### Technology Track:
+## Technology Track:
 
 * **Frontend:** React, Redux, Webpack (`3.11.0`), Express, Moment, React-dates, Jest
 
@@ -16,9 +14,7 @@ A website that helps you to save the info of expense in detail. This is coded in
 
 * **Deploy:** Heroku
 
-****
-
-### Pre - Development Usage:
+## Pre - Development Usage:
 
 1. Open Teminal and `git clone git@github.com:hptg1994/Expensify_React.git`
 
@@ -45,21 +41,22 @@ A website that helps you to save the info of expense in detail. This is coded in
 6. Same on `.env.test`
 
 7. Go to Authentication on firebase, activate `Google` Login Option.
-****
 
-### On Development 
+## On Development 
 
 1. On Terminal, `cd` to `expensify_react` folder.
 2. Type in `npm install`
 3. Type in `npm run dev-server`
 4. Enjoy : )
-****
-### To Do
+
+## To Do
 
 - [ ] Migrate it to Electron 
 
 - [ ] Create a Flutter Version 
 
-- [ ] Create a Vue Version
+- [ ] Create a Angular Version
+
+- [x] Create a Vue Version
 
 - [ ] Create a React Native Version
