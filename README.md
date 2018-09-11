@@ -14,7 +14,7 @@ A website that helps you to save the info of expense in detail. This is coded in
 
 * **Deploy:** Heroku
 
-## Pre - Development Usage:
+## Pre - Development Procedure:
 
 1. Open Teminal and `git clone git@github.com:hptg1994/Expensify_React.git`
 
@@ -42,7 +42,7 @@ A website that helps you to save the info of expense in detail. This is coded in
 
 7. Go to Authentication on firebase, activate `Google` Login Option.
 
-## On Development 
+## On Development Procedure
 
 1. On Terminal, `cd` to `expensify_react` folder.
 2. Type in `npm install`
