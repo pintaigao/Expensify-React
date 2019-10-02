@@ -51,6 +51,7 @@ const countReducer = (state = { count: 0 }, action) => {
 const store = createStore(countReducer);
 
 const unsubscribe = store.subscribe(() => {
+  // Every single time state change, this will be executed;
   console.log(store.getState());
 });
 

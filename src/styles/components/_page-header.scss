@@ -1,5 +1,4 @@
 .page-header {
-  background: $off-white;
   margin-bottom: $l-size;
   padding: $l-size 0;
 }
@@ -8,10 +7,39 @@
   margin-top: $m-size;
 }
 
+
+
 .page-header__title {
   font-weight: 300;
   margin: 0;
   span {
     font-weight: 700;
   }
+}
+
+
+.add-expense-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50px;
+  background-color: #4763e0;
+  padding: 20px;
+  box-shadow: 0px 0px 10px lightgrey;
+  display: flex;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.add-expense-button:hover {
+  box-shadow: 0px 3px 10px gray;
+}
+
+.searching-input {
+  border: none;
+  padding: 15px;
+  width: 400px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 2px 50px lightgray;
 }

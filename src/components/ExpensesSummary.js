@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import numeral from 'numeral';
 import selectExpenses from '../selectors/expenses';
 import selectExpensesTotal from '../selectors/expenses-total';
+import IosAdd from "react-ionicons/lib/IosAdd";
 
 export const ExpensesSummary = ({ expenseCount, expensesTotal }) => {
   const expenseWord = expenseCount === 1 ? 'expense' : 'expenses';
@@ -13,9 +14,11 @@ export const ExpensesSummary = ({ expenseCount, expensesTotal }) => {
     <div className="page-header">
       <div className="content-container">
         <h1 className="page-header__title">Viewing <span>{expenseCount}</span> {expenseWord} totalling <span>{formattedExpensesTotal}</span></h1>
-        <div className="page-header__actions">
-          <Link className="button" to="/create">Add Expense</Link>
-        </div>
+        <Link className="button" to="/create">
+          <div className="add-expense-button">
+            <IosAdd color="white" fontSize="40px" />
+          </div>
+        </Link>
       </div>
     </div>
   );

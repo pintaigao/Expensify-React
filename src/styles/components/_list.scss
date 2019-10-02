@@ -8,10 +8,12 @@
 }
 
 .list-body {
-  margin-bottom: $m-size;
-  @media (min-width: $desktop-breakpoint) {
-    margin-bottom: $l-size;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  // margin-bottom: $m-size;
+  // @media (min-width: $desktop-breakpoint) {
+  //   margin-bottom: $l-size;
+  // }
 }
 
 .list-item {
@@ -22,7 +24,7 @@
   flex-direction: column;
   padding: $s-size;
   text-decoration: none;
-  transition: background .3s ease;
+  transition: background 0.3s ease;
   &:hover {
     background: $off-white;
   }
@@ -59,5 +61,29 @@
   @media (min-width: $desktop-breakpoint) {
     margin: 0;
     padding-left: $s-size;
+  }
+}
+
+
+.listItemContainer {
+  background-color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  color: black;
+  width:200px;  
+}
+
+.list-item-date {
+  font-size: 10px;   
+}
+
+.list-item-description {
+  text-align: center;
+  .list-item-title {
+    font-size: 30px;
+    margin: 0px;
   }
 }
