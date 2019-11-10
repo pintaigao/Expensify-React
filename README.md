@@ -24,17 +24,17 @@ A website that helps you to save the info of expense in detail. This is coded in
 
 4. Look up the `Project Setting` of the app just created in firebase and then click `add Firebase to web app`, copy the value of these following thing:
 
-   > apiKey
+   > * apiKey
    >
-   > authDomain
+   > * authDomain
    >
-   > databaseURL
+   > * databaseURL
    >
-   > projectId
+   > * projectId
    >
-   > storageBucket
+   > * storageBucket
    >
-   > messagingSenderID
+   > * messagingSenderID
 
 5. Paste them into `.env.development` in this format: FIREBASE_API_KEY = ($ Paste the apiKey here), same on the rest.
 
